@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: linear-gradient(to top, rgb(226, 50, 50), rgb(53, 175, 53), rgb(0, 0, 30),white);
+    width: 346px;
+    display: inline-block;
+    padding: 20px 10px;
+    border-bottom: 10px solid rgb(23, 23, 29);
+    margin-left: 50px;
+    margin-top: 23px;
+    border-radius: 5px;
+    /* overflow: scroll; */
+}
+
+.image {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/S7APkbn99b1oVsds_1JBhvdzsWU=/0x0:2000x1000/1400x1400/filters:focal(814x298:815x299)/cdn.vox-cdn.com/uploads/chorus_asset/file/10440907/Thanos_MCU.jpg");
+    height: 230px;
+    width: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 0 10px 30px rgba(10, 1, 1, 0.3);
+}
+.content{
+    color: yellow;
+    text-align: justify;
+    padding: 10px 15px;
+    margin-top: 25px;
+    
+    
+}
+.container h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: darkblue;
+    text-shadow: 0px 0px 5px rgb(247, 232, 232);
+    /* background-clip: text; */
+}
+.container:hover{
+box-shadow: 0px 0px 10px 10px rgb(29, 16, 16);
+}
+.image:hover{
+    transform: scale(1.1);
+}
